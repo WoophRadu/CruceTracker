@@ -8,9 +8,10 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>CruceTracker</RootNamespace>
     <AssemblyName>CruceTracker</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -30,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +57,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -61,6 +68,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -74,6 +82,41 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+    <None Include="Resources\logomic.png" />
+    <None Include="Resources\v9.jpg" />
+    <None Include="Resources\v4.jpg" />
+    <None Include="Resources\v3.jpg" />
+    <None Include="Resources\v2.jpg" />
+    <None Include="Resources\v10.jpg" />
+    <None Include="Resources\g10.jpg" />
+    <None Include="Resources\g9.jpg" />
+    <None Include="Resources\g4.jpg" />
+    <None Include="Resources\g3.jpg" />
+    <None Include="Resources\g2.jpg" />
+    <None Include="Resources\r9.jpg" />
+    <None Include="Resources\x.png" />
+    <None Include="Resources\verde.png" />
+    <None Include="Resources\va.jpg" />
+    <None Include="Resources\rosu.png" />
+    <None Include="Resources\ra.jpg" />
+    <None Include="Resources\r10.jpg" />
+    <None Include="Resources\r4.jpg" />
+    <None Include="Resources\r3.jpg" />
+    <None Include="Resources\r2.jpg" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\logo.ico" />
+    <None Include="Resources\ghinda.png" />
+    <None Include="Resources\ga.jpg" />
+    <None Include="Resources\duba.png" />
+    <None Include="Resources\da.jpg" />
+    <None Include="Resources\d10.jpg" />
+    <None Include="Resources\d9.jpg" />
+    <None Include="Resources\d4.jpg" />
+    <None Include="Resources\d3.jpg" />
+    <None Include="Resources\d2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
