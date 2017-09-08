@@ -18,6 +18,119 @@ namespace CruceTracker
             InitializeComponent();
         }
 
+        void updateMajore(string culoare)
+        {
+            if (culoare == "duba")
+            {
+                if (pictureBoxda.Image == null)
+                {
+                    labelDubaMajoraVal.Text = "As (11)";
+                }
+                else if (pictureBoxd10.Image == null)
+                {
+                    labelDubaMajoraVal.Text = "X (10)";
+                }
+                else if (pictureBoxd4.Image == null)
+                {
+                    labelDubaMajoraVal.Text = "IV (4)";
+                }
+                else if (pictureBoxd3.Image == null)
+                {
+                    labelDubaMajoraVal.Text = "III (3)";
+                }
+                else if (pictureBoxd2.Image == null)
+                {
+                    labelDubaMajoraVal.Text = "II (2)";
+                }
+                else
+                {
+                    labelDubaMajoraVal.Text = "IX (0)";
+                }
+            }
+            else if (culoare == "ghinda")
+            {
+                if (pictureBoxga.Image == null)
+                {
+                    labelGhindaMajoraVal.Text = "As (11)";
+                }
+                else if (pictureBoxg10.Image == null)
+                {
+                    labelGhindaMajoraVal.Text = "X (10)";
+                }
+                else if (pictureBoxg4.Image == null)
+                {
+                    labelGhindaMajoraVal.Text = "IV (4)";
+                }
+                else if (pictureBoxg3.Image == null)
+                {
+                    labelGhindaMajoraVal.Text = "III (3)";
+                }
+                else if (pictureBoxg2.Image == null)
+                {
+                    labelGhindaMajoraVal.Text = "II (2)";
+                }
+                else
+                {
+                    labelGhindaMajoraVal.Text = "IX (0)";
+                }
+            }
+            else if (culoare == "rosu")
+            {
+                if (pictureBoxra.Image == null)
+                {
+                    labelRosuMajorVal.Text = "As (11)";
+                }
+                else if (pictureBoxr10.Image == null)
+                {
+                    labelRosuMajorVal.Text = "X (10)";
+                }
+                else if (pictureBoxr4.Image == null)
+                {
+                    labelRosuMajorVal.Text = "IV (4)";
+                }
+                else if (pictureBoxr3.Image == null)
+                {
+                    labelRosuMajorVal.Text = "III (3)";
+                }
+                else if (pictureBoxr2.Image == null)
+                {
+                    labelRosuMajorVal.Text = "II (2)";
+                }
+                else
+                {
+                    labelRosuMajorVal.Text = "IX (0)";
+                }
+            }
+            else
+            {
+                if (pictureBoxva.Image == null)
+                {
+                    labelVerdeMajorVal.Text = "As (11)";
+                }
+                else if (pictureBoxv10.Image == null)
+                {
+                    labelVerdeMajorVal.Text = "X (10)";
+                }
+                else if (pictureBoxv4.Image == null)
+                {
+                    labelVerdeMajorVal.Text = "IV (4)";
+                }
+                else if (pictureBoxv3.Image == null)
+                {
+                    labelVerdeMajorVal.Text = "III (3)";
+                }
+                else if (pictureBoxv2.Image == null)
+                {
+                    labelVerdeMajorVal.Text = "II (2)";
+                }
+                else
+                {
+                    labelVerdeMajorVal.Text = "IX (0)";
+                }
+
+            }
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             this.Controls.Clear();
@@ -74,6 +187,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("duba");
         }
 
         private void pictureBoxga_Click(object sender, EventArgs e)
@@ -94,6 +208,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("ghinda");
         }
 
         private void pictureBoxra_Click(object sender, EventArgs e)
@@ -114,6 +229,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("rosu");
         }
 
         private void pictureBoxva_Click(object sender, EventArgs e)
@@ -134,6 +250,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("verde");
         }
 
         private void pictureBoxd10_Click(object sender, EventArgs e)
@@ -154,6 +271,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("duba");
         }
 
         private void pictureBoxg10_Click(object sender, EventArgs e)
@@ -174,6 +292,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("ghinda");
         }
 
         private void pictureBoxr10_Click(object sender, EventArgs e)
@@ -194,6 +313,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("rosu");
         }
 
         private void pictureBoxv10_Click(object sender, EventArgs e)
@@ -214,6 +334,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("verde");
         }
 
         private void pictureBoxd4_Click(object sender, EventArgs e)
@@ -234,6 +355,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("duba");
         }
 
         private void pictureBoxg4_Click(object sender, EventArgs e)
@@ -254,6 +376,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("ghinda");
         }
 
         private void pictureBoxr4_Click(object sender, EventArgs e)
@@ -274,6 +397,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("rosu");
         }
 
         private void pictureBoxv4_Click(object sender, EventArgs e)
@@ -294,6 +418,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("verde");
         }
 
         private void pictureBoxd3_Click(object sender, EventArgs e)
@@ -314,6 +439,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("duba");
         }
 
         private void pictureBoxg3_Click(object sender, EventArgs e)
@@ -334,6 +460,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("ghinda");
         }
 
         private void pictureBoxr3_Click(object sender, EventArgs e)
@@ -354,6 +481,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("rosu");
         }
 
         private void pictureBoxv3_Click(object sender, EventArgs e)
@@ -374,6 +502,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("verde");
         }
 
         private void pictureBoxd2_Click(object sender, EventArgs e)
@@ -394,6 +523,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("duba");
         }
 
         private void pictureBoxg2_Click(object sender, EventArgs e)
@@ -414,6 +544,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("ghinda");
         }
 
         private void pictureBoxr2_Click(object sender, EventArgs e)
@@ -434,6 +565,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("rosu");
         }
 
         private void pictureBoxv2_Click(object sender, EventArgs e)
@@ -454,6 +586,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("verde");
         }
 
         private void pictureBoxd9_Click(object sender, EventArgs e)
@@ -474,6 +607,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("duba");
         }
 
         private void pictureBoxg9_Click(object sender, EventArgs e)
@@ -494,6 +628,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("ghinda");
         }
 
         private void pictureBoxr9_Click(object sender, EventArgs e)
@@ -514,6 +649,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("rosu");
         }
 
         private void pictureBoxv9_Click(object sender, EventArgs e)
@@ -534,6 +670,7 @@ namespace CruceTracker
                     labelNrTromfi.Text = (Int32.Parse(labelNrTromfi.Text) - 1).ToString();
                 }
             }
+            updateMajore("verde");
         }
     }
 }

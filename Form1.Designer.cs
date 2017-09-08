@@ -60,14 +60,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.labelNrTromfi = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.labelDubaMajora = new System.Windows.Forms.Label();
+            this.labelDubaMajoraVal = new System.Windows.Forms.Label();
+            this.labelGhindaMajora = new System.Windows.Forms.Label();
+            this.labelGhindaMajoraVal = new System.Windows.Forms.Label();
+            this.labelRosuMajor = new System.Windows.Forms.Label();
+            this.labelRosuMajorVal = new System.Windows.Forms.Label();
+            this.labelVerdeMajor = new System.Windows.Forms.Label();
+            this.labelVerdeMajorVal = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -465,85 +465,85 @@
             this.labelNrTromfi.TabIndex = 30;
             this.labelNrTromfi.Text = "6";
             // 
-            // label4
+            // labelDubaMajora
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(750, 265);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(97, 18);
-            this.label4.TabIndex = 31;
-            this.label4.Text = "Duba majora:";
+            this.labelDubaMajora.AutoSize = true;
+            this.labelDubaMajora.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDubaMajora.Location = new System.Drawing.Point(750, 265);
+            this.labelDubaMajora.Name = "labelDubaMajora";
+            this.labelDubaMajora.Size = new System.Drawing.Size(97, 18);
+            this.labelDubaMajora.TabIndex = 31;
+            this.labelDubaMajora.Text = "Duba majora:";
             // 
-            // label5
+            // labelDubaMajoraVal
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(865, 265);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(25, 18);
-            this.label5.TabIndex = 32;
-            this.label5.Text = "As";
+            this.labelDubaMajoraVal.AutoSize = true;
+            this.labelDubaMajoraVal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDubaMajoraVal.Location = new System.Drawing.Point(865, 265);
+            this.labelDubaMajoraVal.Name = "labelDubaMajoraVal";
+            this.labelDubaMajoraVal.Size = new System.Drawing.Size(55, 18);
+            this.labelDubaMajoraVal.TabIndex = 32;
+            this.labelDubaMajoraVal.Text = "As (11)";
             // 
-            // label6
+            // labelGhindaMajora
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(750, 283);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(109, 18);
-            this.label6.TabIndex = 33;
-            this.label6.Text = "Ghinda majora:";
+            this.labelGhindaMajora.AutoSize = true;
+            this.labelGhindaMajora.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelGhindaMajora.Location = new System.Drawing.Point(750, 283);
+            this.labelGhindaMajora.Name = "labelGhindaMajora";
+            this.labelGhindaMajora.Size = new System.Drawing.Size(109, 18);
+            this.labelGhindaMajora.TabIndex = 33;
+            this.labelGhindaMajora.Text = "Ghinda majora:";
             // 
-            // label7
+            // labelGhindaMajoraVal
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(865, 283);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(25, 18);
-            this.label7.TabIndex = 34;
-            this.label7.Text = "As";
+            this.labelGhindaMajoraVal.AutoSize = true;
+            this.labelGhindaMajoraVal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelGhindaMajoraVal.Location = new System.Drawing.Point(865, 283);
+            this.labelGhindaMajoraVal.Name = "labelGhindaMajoraVal";
+            this.labelGhindaMajoraVal.Size = new System.Drawing.Size(55, 18);
+            this.labelGhindaMajoraVal.TabIndex = 34;
+            this.labelGhindaMajoraVal.Text = "As (11)";
             // 
-            // label8
+            // labelRosuMajor
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(750, 301);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(90, 18);
-            this.label8.TabIndex = 35;
-            this.label8.Text = "Rosu major:";
+            this.labelRosuMajor.AutoSize = true;
+            this.labelRosuMajor.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRosuMajor.Location = new System.Drawing.Point(750, 301);
+            this.labelRosuMajor.Name = "labelRosuMajor";
+            this.labelRosuMajor.Size = new System.Drawing.Size(90, 18);
+            this.labelRosuMajor.TabIndex = 35;
+            this.labelRosuMajor.Text = "Rosu major:";
             // 
-            // label9
+            // labelRosuMajorVal
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(865, 301);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(25, 18);
-            this.label9.TabIndex = 36;
-            this.label9.Text = "As";
+            this.labelRosuMajorVal.AutoSize = true;
+            this.labelRosuMajorVal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRosuMajorVal.Location = new System.Drawing.Point(865, 301);
+            this.labelRosuMajorVal.Name = "labelRosuMajorVal";
+            this.labelRosuMajorVal.Size = new System.Drawing.Size(55, 18);
+            this.labelRosuMajorVal.TabIndex = 36;
+            this.labelRosuMajorVal.Text = "As (11)";
             // 
-            // label10
+            // labelVerdeMajor
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(750, 319);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(92, 18);
-            this.label10.TabIndex = 37;
-            this.label10.Text = "Verde major:";
+            this.labelVerdeMajor.AutoSize = true;
+            this.labelVerdeMajor.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelVerdeMajor.Location = new System.Drawing.Point(750, 319);
+            this.labelVerdeMajor.Name = "labelVerdeMajor";
+            this.labelVerdeMajor.Size = new System.Drawing.Size(92, 18);
+            this.labelVerdeMajor.TabIndex = 37;
+            this.labelVerdeMajor.Text = "Verde major:";
             // 
-            // label11
+            // labelVerdeMajorVal
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(865, 319);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(25, 18);
-            this.label11.TabIndex = 38;
-            this.label11.Text = "As";
+            this.labelVerdeMajorVal.AutoSize = true;
+            this.labelVerdeMajorVal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelVerdeMajorVal.Location = new System.Drawing.Point(865, 319);
+            this.labelVerdeMajorVal.Name = "labelVerdeMajorVal";
+            this.labelVerdeMajorVal.Size = new System.Drawing.Size(55, 18);
+            this.labelVerdeMajorVal.TabIndex = 38;
+            this.labelVerdeMajorVal.Text = "As (11)";
             // 
             // button1
             // 
@@ -595,14 +595,14 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.labelVerdeMajorVal);
+            this.Controls.Add(this.labelVerdeMajor);
+            this.Controls.Add(this.labelRosuMajorVal);
+            this.Controls.Add(this.labelRosuMajor);
+            this.Controls.Add(this.labelGhindaMajoraVal);
+            this.Controls.Add(this.labelGhindaMajora);
+            this.Controls.Add(this.labelDubaMajoraVal);
+            this.Controls.Add(this.labelDubaMajora);
             this.Controls.Add(this.labelNrTromfi);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -705,14 +705,14 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelNrTromfi;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label labelDubaMajora;
+        private System.Windows.Forms.Label labelDubaMajoraVal;
+        private System.Windows.Forms.Label labelGhindaMajora;
+        private System.Windows.Forms.Label labelGhindaMajoraVal;
+        private System.Windows.Forms.Label labelRosuMajor;
+        private System.Windows.Forms.Label labelRosuMajorVal;
+        private System.Windows.Forms.Label labelVerdeMajor;
+        private System.Windows.Forms.Label labelVerdeMajorVal;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label3;
