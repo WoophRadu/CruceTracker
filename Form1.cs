@@ -42,9 +42,13 @@ namespace CruceTracker
                 {
                     labelDubaMajoraVal.Text = "II (2)";
                 }
-                else
+                else if (pictureBoxd9.Image == null)
                 {
                     labelDubaMajoraVal.Text = "IX (0)";
+                }
+                else
+                {
+                    labelDubaMajoraVal.Text = "S-au epuizat cartile";
                 }
             }
             else if (culoare == "ghinda")
@@ -69,9 +73,13 @@ namespace CruceTracker
                 {
                     labelGhindaMajoraVal.Text = "II (2)";
                 }
-                else
+                else if (pictureBoxg9.Image == null)
                 {
                     labelGhindaMajoraVal.Text = "IX (0)";
+                }
+                else
+                {
+                    labelGhindaMajoraVal.Text = "S-au epuizat cartile";
                 }
             }
             else if (culoare == "rosu")
@@ -96,9 +104,13 @@ namespace CruceTracker
                 {
                     labelRosuMajorVal.Text = "II (2)";
                 }
-                else
+                else if (pictureBoxr9.Image == null)
                 {
                     labelRosuMajorVal.Text = "IX (0)";
+                }
+                else
+                {
+                    labelRosuMajorVal.Text = "S-au epuizat cartile";
                 }
             }
             else
@@ -123,9 +135,13 @@ namespace CruceTracker
                 {
                     labelVerdeMajorVal.Text = "II (2)";
                 }
-                else
+                else if (pictureBoxv9.Image == null)
                 {
                     labelVerdeMajorVal.Text = "IX (0)";
+                }
+                else
+                {
+                    labelVerdeMajorVal.Text = "S-au epuizat cartile";
                 }
 
             }

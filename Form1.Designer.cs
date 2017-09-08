@@ -636,6 +636,9 @@
             this.Controls.Add(this.pictureBoxda);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1095, 781);
+            this.MinimumSize = new System.Drawing.Size(1095, 781);
             this.Name = "Form1";
             this.Text = "Cruce Tracker";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDuba)).EndInit();
