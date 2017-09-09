@@ -155,6 +155,7 @@ namespace CruceTracker
 
         private void pictureBoxGhinda_Click(object sender, EventArgs e)
         {
+            pictureBoxGhinda.BorderStyle = BorderStyle.Fixed3D;
             pictureBoxDuba.Hide();
             pictureBoxRosu.Hide();
             pictureBoxVerde.Hide();
@@ -163,6 +164,7 @@ namespace CruceTracker
 
         private void pictureBoxDuba_Click(object sender, EventArgs e)
         {
+            pictureBoxDuba.BorderStyle = BorderStyle.Fixed3D;
             pictureBoxGhinda.Hide();
             pictureBoxRosu.Hide();
             pictureBoxVerde.Hide();
@@ -171,6 +173,7 @@ namespace CruceTracker
 
         private void pictureBoxRosu_Click(object sender, EventArgs e)
         {
+            pictureBoxRosu.BorderStyle = BorderStyle.Fixed3D; 
             pictureBoxGhinda.Hide();
             pictureBoxDuba.Hide();
             pictureBoxVerde.Hide();
@@ -179,6 +182,7 @@ namespace CruceTracker
 
         private void pictureBoxVerde_Click(object sender, EventArgs e)
         {
+            pictureBoxVerde.BorderStyle = BorderStyle.Fixed3D;
             pictureBoxGhinda.Hide();
             pictureBoxDuba.Hide();
             pictureBoxRosu.Hide();
@@ -687,6 +691,82 @@ namespace CruceTracker
                 }
             }
             updateMajore("verde");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelVerdeMajorVal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelVerdeMajor_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelRosuMajorVal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelRosuMajor_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelGhindaMajoraVal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelGhindaMajora_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelDubaMajoraVal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelDubaMajora_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelNrTromfi_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void checkForUpdatesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/WoophRadu/CruceTracker/releases");
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutBox1 about = new AboutBox1();
+            about.Show();
         }
     }
 }
